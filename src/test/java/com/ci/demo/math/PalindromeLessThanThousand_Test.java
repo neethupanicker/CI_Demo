@@ -10,8 +10,8 @@ public class PalindromeLessThanThousand_Test
     public void testCase2()
     {
     	PalindromeLessThanThousand pl = new PalindromeLessThanThousand();
-    	int num2=pl.reverse(35);
-    	if (num2 == 53){
+    	int num2=pl.reverse(39);
+    	if (num2 == 93){
         assertTrue(true);
         System.out.println("Palindrome Test Passed");
         }
