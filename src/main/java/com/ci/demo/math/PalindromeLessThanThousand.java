@@ -27,6 +27,7 @@ public class PalindromeLessThanThousand {
         for ( int i = 10; i < 10000; i++ ) {
             if ( i == reverse( i ) ) {
                 System.out.println( i );
+                System.out.println( "Changes made");
             }
         }
     }
